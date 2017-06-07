@@ -1,0 +1,151 @@
+/* Body and main segment of the app */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.stagodbre,
+.containerAll {
+  max-width: 920px;
+  margin:auto;
+}
+
+.body {
+  color: #fff;
+  font-weight: 600;
+  padding: 0 20px;
+}
+/* ------------------------------------ */
+
+/* Buttons and misc */
+.number {
+  display: block;
+  position: relative;
+  bottom: 15px;
+  padding-left: 50px;
+}
+
+#button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#button button {
+  background-color: #222;
+  border: none;
+  color: #61dafb;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+#button .active{
+  display: none;
+}
+/* ------------------------------------ */
+
+/* Items on the page */
+.event {
+  border: 1px solid #222;
+  background: #61dafb;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 20px 20px;
+}
+
+.blog {
+  border: 1px solid #61dafb;
+  background: #222;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 20px 20px;
+}
+
+.event .type {
+  color: #222;
+}
+
+.type {
+  color: #61dafb;
+  text-align: center;
+  position: relative;
+}
+
+.blog:hover .hover-div,
+.event:hover .hover-div {
+  position: relative;
+  background: #222;
+  width: 360px;
+  display: inline-block;
+  margin:20px 20px;
+  z-index: 150;
+}
+
+.hover-div {
+  display: none;
+}
+
+.stagodbre {
+  max-width: 441px;
+}
+
+.stagodbre .hover-div {
+  background: #222;
+  width: 360px;
+  display: inline-block;
+  margin:20px 20px;
+}
+
+.stagodbre .event,
+.stagodbre .blog {
+  height: 0;
+  width: 0;
+  border: none;
+}
+
+.stagodbre .type {
+  display: none;
+}
+
+.stagodbre .number {
+  display: none;
+}
+
+.blog img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+.titleBox-event {
+  background: #664400;
+  margin:0;
+}
+
+.titleBox-blog {
+  background: #662346;
+  margin:0;
+}
+
+.title {
+  text-align: center;
+  color: #cc6600;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.event img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 20px;
+}
+/* ------------------------------------ */
+
